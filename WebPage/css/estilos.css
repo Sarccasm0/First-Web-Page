@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+  background-image: url(../back.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  font-size: 15px;
+  margin-top: 55px;
+  margin-right: 50px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.logo {
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 50px;
+  filter: grayscale(100%);
+}
+
+.header {
+  max-width: 900px;
+  margin: auto;
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+.me {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.me h4 {
+  font-size: 45px;
+}
+
+.me p {
+  text-align: justify;
+  margin: 10px 25px 0 25px;
+}
+
+.me a {
+  margin: 50px;
+}
+
+.git {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-style: none;
+  color: black;
+  margin: 20px;
+}
+
+.git:hover {
+  color: white;
+  background-color: #C1292E;
+  padding: 3px;
+  margin: 10px;
+}
+
+.Contenido {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.pulpo {
+  margin: 20px 0 20px 0;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio_h4 {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-style: none;
+  color: black;
+  font-size: 42px;
+}
+
+.portfolio {
+  text-decoration: none;
+  text-align: justify;
+  margin: 10px 25px 0 25px;
+}
+
+.footer {
+  display: inline-block;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .header ul {
+    margin-top: 250px;
+  }
+
+  .header .logo {
+    margin-bottom: -250px;
+  }
+
+  .logo {
+    vertical-align: middle;
+    left: 27%;
+    top: 50%;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  ul li a {
+    background-color: grey;
+    color: white;
+    border: none;
+  }
+
+  ul li a:hover {
+    background-color: #ff101f;
+    color: white;
+    border: none;
+  }
+}
